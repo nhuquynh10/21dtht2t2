@@ -5,6 +5,8 @@ namespace demogitt2t2
         public Form1()
         {
             InitializeComponent();
+            //dau biet lan di mot lo lang
+            //duoi troi dau kho chet yeu duong
         }
     }
 }
