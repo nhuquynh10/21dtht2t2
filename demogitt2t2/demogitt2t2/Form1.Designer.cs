@@ -30,6 +30,9 @@
         {
             lbUserName = new Label();
             txtUserName = new TextBox();
+            lbPassword = new Label();
+            txtPassword = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // lbUserName
@@ -48,25 +51,10 @@
             txtUserName.Size = new Size(232, 27);
             txtUserName.TabIndex = 1;
             // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtUserName);
-            Controls.Add(lbUserName);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
-            lbPassword = new Label();
-            txtPassword = new TextBox();
-            SuspendLayout();
-            // 
             // lbPassword
             // 
             lbPassword.AutoSize = true;
-            lbPassword.Location = new Point(56, 84);
+            lbPassword.Location = new Point(84, 116);
             lbPassword.Name = "lbPassword";
             lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 0;
@@ -74,16 +62,28 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(155, 83);
+            txtPassword.Location = new Point(204, 116);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(339, 27);
+            txtPassword.Size = new Size(232, 27);
             txtPassword.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(209, 183);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Dang nhap";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(txtUserName);
+            Controls.Add(lbUserName);
             Controls.Add(txtPassword);
             Controls.Add(lbPassword);
             Name = "Form1";
@@ -99,5 +99,6 @@
 
         private Label lbPassword;
         private TextBox txtPassword;
+        private Button button1;
     }
 }
