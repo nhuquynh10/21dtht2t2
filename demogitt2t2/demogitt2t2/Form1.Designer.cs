@@ -54,7 +54,7 @@
             // lbPassword
             // 
             lbPassword.AutoSize = true;
-            lbPassword.Location = new Point(84, 125);
+            lbPassword.Location = new Point(84, 116);
             lbPassword.Name = "lbPassword";
             lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(204, 122);
+            txtPassword.Location = new Point(204, 116);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(232, 27);
             txtPassword.TabIndex = 1;
